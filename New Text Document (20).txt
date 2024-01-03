@@ -1,0 +1,55 @@
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web
+$ git init
+Initialized empty Git repository in C:/Users/IT/Desktop/Mostafa_W2_web/.git/
+
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web (master)
+$ git add *
+warning: in the working copy of 'Home.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Home.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Home.js', LF will be replaced by CRLF the next time Git touches it
+
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web (master)
+$ git commit -m "Mostafa"
+[master (root-commit) edaa22a] Mostafa
+ 20 files changed, 631 insertions(+)
+ create mode 100644 Car.html
+ create mode 100644 Home.css
+ create mode 100644 Home.html
+ create mode 100644 Home.js
+ create mode 100644 Quiz.Html
+ create mode 100644 Sgin up.Html
+ create mode 100644 Task3&5_Day2 (1).pdf
+ create mode 100644 TestCase_Task4_Day1 (1).docx
+ create mode 100644 Web Application Case Study.pdf
+ create mode 100644 car.png
+ create mode 100644 img/air.png
+ create mode 100644 img/air2.png
+ create mode 100644 img/blazer.png
+ create mode 100644 img/blazer2.png
+ create mode 100644 img/crater.png
+ create mode 100644 img/crater2.png
+ create mode 100644 img/hippie.png
+ create mode 100644 img/hippie2.png
+ create mode 100644 img/jordan.png
+ create mode 100644 img/jordan2.png
+
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web (master)
+$ git branch -M main
+
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web (main)
+$ git remote add origin https://github.com/MostafaEmad16/Web-App.git
+
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web (main)
+$ git push -u origin main
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (23/23), 4.27 MiB | 1.31 MiB/s, done.
+Total 23 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MostafaEmad16/Web-App.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+IT@Mostafa_Emad_Mostafa_khalil MINGW64 ~/Desktop/Mostafa_W2_web (main)
+$
